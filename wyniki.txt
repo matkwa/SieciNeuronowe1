@@ -1,0 +1,91 @@
+
+
+🔍 Trial 1/18
+   Layers=[64, 32], Dropout=0.2, LR=0.001
+
+   AUC = 0.9111
+   🔥 NEW BEST MODEL
+
+🔍 Trial 2/18
+   Layers=[64, 32], Dropout=0.2, LR=0.0005
+   AUC = 0.9112
+   🔥 NEW BEST MODEL
+
+🔍 Trial 3/18
+   Layers=[64, 32], Dropout=0.3, LR=0.001
+   AUC = 0.9170
+   🔥 NEW BEST MODEL
+
+🔍 Trial 4/18
+   Layers=[64, 32], Dropout=0.3, LR=0.0005
+   AUC = 0.9191
+   🔥 NEW BEST MODEL
+
+🔍 Trial 5/18
+   Layers=[64, 32], Dropout=0.4, LR=0.001
+   AUC = 0.9210
+   🔥 NEW BEST MODEL
+
+🔍 Trial 6/18
+   Layers=[64, 32], Dropout=0.4, LR=0.0005
+   AUC = 0.9202
+
+🔍 Trial 7/18
+   Layers=[128, 64], Dropout=0.2, LR=0.001
+   AUC = 0.9066
+
+🔍 Trial 8/18
+   Layers=[128, 64], Dropout=0.2, LR=0.0005
+   AUC = 0.9147
+
+🔍 Trial 9/18
+   Layers=[128, 64], Dropout=0.3, LR=0.001
+   AUC = 0.9153
+
+🔍 Trial 10/18
+   Layers=[128, 64], Dropout=0.3, LR=0.0005
+   AUC = 0.9173
+
+🔍 Trial 11/18
+   Layers=[128, 64], Dropout=0.4, LR=0.001
+   AUC = 0.9184
+
+🔍 Trial 12/18
+   Layers=[128, 64], Dropout=0.4, LR=0.0005
+   AUC = 0.9143
+
+🔍 Trial 13/18
+   Layers=[128, 64, 32], Dropout=0.2, LR=0.001
+   AUC = 0.9135
+
+🔍 Trial 14/18
+   Layers=[128, 64, 32], Dropout=0.2, LR=0.0005
+   AUC = 0.9094
+
+🔍 Trial 15/18
+   Layers=[128, 64, 32], Dropout=0.3, LR=0.001
+   AUC = 0.9161
+
+🔍 Trial 16/18
+   Layers=[128, 64, 32], Dropout=0.3, LR=0.0005
+   AUC = 0.9250
+   🔥 NEW BEST MODEL
+
+🔍 Trial 17/18
+   Layers=[128, 64, 32], Dropout=0.4, LR=0.001
+   AUC = 0.9147
+
+🔍 Trial 18/18
+   Layers=[128, 64, 32], Dropout=0.4, LR=0.0005
+   AUC = 0.9149
+
+============================================================
+🏆 NAJLEPSZY MODEL
+AUC: 0.9250
+Layers: [128, 64, 32]
+Dropout: 0.3
+Learning Rate: 0.0005
+⏱️ Czas: 18.3 min
+💾 Zapisano: best_automl_adult.keras
+
+Process finished with exit code 0
