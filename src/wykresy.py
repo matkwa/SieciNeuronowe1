@@ -147,5 +147,3 @@ plt.tight_layout()
 plt.savefig('roc.png', dpi=300)
 print("💾 Zapisano: roc.png")
 plt.close()
-
-print("\n🎉 Gotowe! Prześlij mi teraz zawartość pliku 'wyniki.txt'.")
