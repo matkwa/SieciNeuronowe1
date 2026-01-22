@@ -1,0 +1,24 @@
+=== SZCZEGÓŁOWE WYNIKI MODELU ===
+Model: best_automl_adult.keras
+
+ACCURACY (Dokładność): 0.8443
+AUC (Area Under Curve): 0.9211
+PRECISION (Precyzja dla klasy >50K): 0.8390
+RECALL (Czułość dla klasy >50K): 0.8522
+F1-SCORE: 0.8456
+
+--- MACIERZ POMYŁEK ---
+True Negatives (TN): 1217
+False Positives (FP): 238
+False Negatives (FN): 215
+True Positives (TP): 1240
+
+--- RAPORT KLASYFIKACJI ---
+              precision    recall  f1-score   support
+
+           0       0.85      0.84      0.84      1455
+           1       0.84      0.85      0.85      1455
+
+    accuracy                           0.84      2910
+   macro avg       0.84      0.84      0.84      2910
+weighted avg       0.84      0.84      0.84      2910
